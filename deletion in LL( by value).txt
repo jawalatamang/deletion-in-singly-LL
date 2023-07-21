@@ -21,21 +21,7 @@ class LinkedList:
         new_node.link = self.head
         self.head = new_node
 
-    def delete_begin(self):
-        if self.head is None:
-            print("linked list is empty ! ")
-        else:
-            self.head = self.head.link
-            
-    def delete_end(self):
-        if self.head is None:
-            print("Linked list is empty so can't delete nodes !")
-        else:
-            n = self.head
-            while n.link.link is not None:
-                n = n.link
-            n.link = None
-            
+    
     def delete_by_value(self,x):
         if self.head is None:
             print("LL is empty so can't delete node")
