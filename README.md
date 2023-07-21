@@ -1,2 +1,2 @@
 # deletion-in-singly-LL
-by value
+By value
